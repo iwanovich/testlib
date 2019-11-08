@@ -1,11 +1,9 @@
-﻿using System;
+using System;
 
 namespace testlib
 {
-    public class Speaker
+    public interface Speaker
     {
-        string sayOrder(){
-            return "Order!";
-        }
+        string sayOrder();
     }
 }
